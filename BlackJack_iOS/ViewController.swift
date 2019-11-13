@@ -15,6 +15,5 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
 
-    //this is a test
 }
 

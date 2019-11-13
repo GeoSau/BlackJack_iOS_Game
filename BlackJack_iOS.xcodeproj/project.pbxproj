@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1F399DEB2379C58E00AEE575 /* Deck.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F399DEA2379C58E00AEE575 /* Deck.swift */; };
 		1F6E15602378EA3600C3826F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F6E155F2378EA3600C3826F /* AppDelegate.swift */; };
 		1F6E15622378EA3600C3826F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F6E15612378EA3600C3826F /* ViewController.swift */; };
 		1F6E15652378EA3600C3826F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F6E15632378EA3600C3826F /* Main.storyboard */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1F399DEA2379C58E00AEE575 /* Deck.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Deck.swift; sourceTree = "<group>"; };
 		1F6E155C2378EA3600C3826F /* BlackJack_iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BlackJack_iOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F6E155F2378EA3600C3826F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1F6E15612378EA3600C3826F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -103,6 +105,7 @@
 				1F6E15662378EA3900C3826F /* Assets.xcassets */,
 				1F6E15682378EA3900C3826F /* LaunchScreen.storyboard */,
 				1F6E156B2378EA3900C3826F /* Info.plist */,
+				1F399DEA2379C58E00AEE575 /* Deck.swift */,
 			);
 			path = BlackJack_iOS;
 			sourceTree = "<group>";
@@ -256,6 +259,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1F399DEB2379C58E00AEE575 /* Deck.swift in Sources */,
 				1F6E15622378EA3600C3826F /* ViewController.swift in Sources */,
 				1F6E15602378EA3600C3826F /* AppDelegate.swift in Sources */,
 			);
