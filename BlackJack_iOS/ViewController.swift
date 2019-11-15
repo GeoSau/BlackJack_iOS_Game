@@ -12,7 +12,11 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        
+        let card = Card(rank: Card.Rank.Ace, suit: Card.Suit.c)
+        print(card.toString())
+        
+        
     }
 
 }
