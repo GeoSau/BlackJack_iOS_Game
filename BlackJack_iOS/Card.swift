@@ -58,10 +58,10 @@ public class Card
     {
         switch (self.rank)
         {
-        case .Jack, .Queen, .King:
-            return 10
-        default:
-            return Int(self.rank.rawValue) ?? 0
+            case .Jack, .Queen, .King:
+                return 10
+            default:
+                return Int(self.rank.rawValue) ?? 0
         }
     }
     

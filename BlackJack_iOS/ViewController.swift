@@ -12,8 +12,10 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+    
+        let card = Card(rank: Card.Rank.Ace, suit: Card.Suit.c)
+        print(card.toString())
         
-        let card: Card
     }
 
 }
